@@ -1,4 +1,4 @@
-# employee_directory
+# Employee Directory App
 
 ## Overview
 
