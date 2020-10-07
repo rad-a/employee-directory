@@ -1,11 +1,12 @@
-# employee_directory
+# Employee Directory App
 
 ## Overview
 
 This is a React application that allows an employer to view employees' information in a well-formatted table.
+
 ## User Story
 
-* As a user, I want to be able to view my entire employee directory at once so that I have quick access to their information.
+As a user, I want to be able to view my entire employee directory at once so that I have quick access to their information.
 
 ## Business Context
 
