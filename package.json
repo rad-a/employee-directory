@@ -2,6 +2,7 @@
   "name": "employee-directory-app",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://github.com/rad-a/employee-directory",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
@@ -9,6 +10,7 @@
     "axios": "^0.20.0",
     "bootstrap": "^4.5.2",
     "font-awesome": "^4.7.0",
+    "gh-pages": "^3.1.0",
     "mdbreact": "^4.27.0",
     "moment": "^2.29.1",
     "react": "^16.13.1",
@@ -17,6 +19,8 @@
     "react-scripts": "3.4.3"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
